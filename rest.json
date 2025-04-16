@@ -1,0 +1,43 @@
+{
+  "restaurants": [
+    {
+      "address": "address1",
+      "id": 1,
+      "name": "Karen's Pizza Shack"
+    },
+    {
+      "address": "address2",
+      "id": 2,
+      "name": "Sanjay's Pizza"
+    },
+    {
+      "address": "address3",
+      "id": 3,
+      "name": "Kiki's Pizza"
+    }
+  ],
+  "pizzas": [
+    {
+      "id": 1,
+      "ingredients": "Dough, Tomato Sauce, Cheese",
+      "name": "Emma"
+    },
+    {
+      "id": 2,
+      "ingredients": "Dough, Tomato Sauce, Cheese, Pepperoni",
+      "name": "Geri"
+    },
+    {
+      "id": 3,
+      "ingredients": "Dough, Sauce, Ricotta, Red peppers, Mustard",
+      "name": "Melanie"
+    }
+  ],
+  "restaurant_pizzas": [
+    {
+      "price": 5,
+      "pizza_id": 1,
+      "restaurant_id": 3
+    }
+  ]
+}
